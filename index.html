@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>釜山旅行計畫｜12/29 - 1/3</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 16px;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #1a56db;
+    }
+    .date-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    .date-btn {
+      background: #1a56db;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .date-btn:hover {
+      background: #1e429f;
+    }
+    .day-section {
+      display: none;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+    .day-section.active {
+      display: block;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+      font-size: 14px;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #1e40af;
+      font-weight: 600;
+    }
+    .naver-link, .official-link {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+    .transport {
+      background: #eff6ff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 13px;
+      display: inline-block;
+      margin-top: 4px;
+    }
+    @media (max-width: 600px) {
+      .date-nav {
+        flex-direction: column;
+      }
+      .date-btn {
+        width: 100%;
+      }
+      th, td {
+        padding: 8px 6px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>📍 我的釜山旅行計畫</h1>
+<h2>2025/12/29 – 2026/1/3</h2>
+
+<div class="date-nav">
+  <button class="date-btn" onclick="showDay('day1')">12/29（日）</button>
+  <button class="date-btn" onclick="showDay('day2')">12/30（一）</button>
+  <button class="date-btn" onclick="showDay('day3')">12/31（二）</button>
+  <button class="date-btn" onclick="showDay('day4')">1/1（三）</button>
+  <button class="date-btn" onclick="showDay('day5')">1/2（四）</button>
+  <button class="date-btn" onclick="showDay('day6')">1/3（五）</button>
+</div>
+
+<!-- 12/29 -->
+<div id="day1" class="day-section">
+  <h2>📅 12/29（日）｜抵達 & 入住</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>20:00</td>
+        <td>
+          <a class="official-link" href="https://elmomento-songdo.busan-hotel.com/" target="_blank">Elmomento 松島飯店</a>
+        </td>
+        <td>
+          韓文地址：부산 서구 등대로 9<br>
+          <a class="naver-link" href="https://naver.me/xnh0yx3F" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 地鐵 1 號線「札嘎其站」步行 2.3 km<br>🚕 計程車（建議）</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 12/30 -->
+<div id="day2" class="day-section">
+  <h2>📅 12/30（一）｜南浦洞 & 松島一日遊</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:30–09:20</td>
+        <td>
+          <a class="official-link" href="https://www.ktriptips.com/cht/food/2479345" target="_blank">원조서울삼계탕（元祖首爾蔘雞湯）</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 남포동4가 28-1<br>
+          <a class="naver-link" href="https://naver.me/5qDjnotn" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 南浦站 1 號出口步行 2 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>08:30–09:20</td>
+        <td>
+          <a class="official-link" href="https://m.blog.naver.com/simpmim/223491287055" target="_blank">오복미역 남포직영점</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 남포동4가 24<br>
+          <a class="naver-link" href="https://naver.me/FIf9sV5O" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 南浦站 1 號出口步行 3–5 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>09:40–11:20</td>
+        <td>
+          <a class="official-link" href="https://tsnio.com/gamcheon-culture-village/" target="_blank">甘川洞文化村부산감천문화마을</a>
+        </td>
+        <td>
+          韓文地址：부산 사하구 감내2로 203<br>
+          <a class="naver-link" href="https://naver.me/Gxk14DQ9" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（推薦）<br>📍 甘川洞入口站下車</span>
+        </td>
+      </tr>
+      <tr>
+        <td>11:40–12:50</td>
+        <td>
+          <a class="official-link" href="https://anise.tw/267743#google_vignette" target="_blank">조선의한우（朝鮮韓牛）南浦店</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 부평2길 12<br>
+          <a class="naver-link" href="https://naver.me/GKovmFLd" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 国際金融센터·釜山銀行站 步行 5 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>13:10–14:00</td>
+        <td>
+          <a class="official-link" href="https://naver.me/GPdoMksp target="_blank">樂天超市（光復店）</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 중앙대로 2<br>
+          <a class="naver-link" href="https://naver.me/GPdoMksp" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 光復站 步行 2 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>14:20–15:30</td>
+        <td>
+          <a class="official-link" href="https://tsnio.com/songdo-sea-cable-car/" target="_blank">松島海上纜車</a>
+        </td>
+        <td>
+          韓文地址：부산 서구 송도해변로 171<br>
+          <a class="naver-link" href="https://naver.me/Fmf6KBhZ" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車從市區前往（約 ₩8,000）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>15:40–16:20</td>
+        <td>
+          <a class="official-link" href="https://lizzzstyle.tw/songdo-cloud-trails/" target="_blank">松島天空步道</a>
+        </td>
+        <td>
+          韓文地址：부산 서구 암남동 129-4<br>
+          <a class="naver-link" href="https://naver.me/FJbW3smn" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚶 從纜車站步行約 10 分鐘至岩南公園</span>
+        </td>
+      </tr>
+      <tr>
+        <td>17:40–18:20</td>
+        <td>
+          <a class="official-link" href="https://creatrip.com/zh-TW/blog/10957" target="_blank">布帳馬車街（南浦洞夜市）</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 남포동6가<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/subway-station/70111" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 南浦站 步行 5 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>18:40–20:00</td>
+        <td>
+          <a class="official-link" href="https://www.youtube.com/watch?v=3g0T_OD6VSM" target="_blank">釜山塔（Yongdusan Park）</a>
+        </td>
+        <td>
+          韓文地址：부산 중구 용두산길 37-55<br>
+          <a class="naver-link" href="https://naver.me/5v3Slnte" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 南浦站 步行 8 分鐘</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 12/31 -->
+<div id="day3" class="day-section">
+  <h2>📅 12/31（二）｜海雲台 & 廣安里跨年</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:30–09:10</td>
+        <td>
+          <a class="official-link" href="https://www.bigfang.tw/blog/post/eom-yongbaek-haeundae" target="_blank">엄용백돼지국밥（嚴湧帛豬肉湯飯）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 구남로24번길 39<br>
+          <a class="naver-link" href="https://naver.me/GMmg7amE" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 海雲臺站 步行 10 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>09:30–11:00</td>
+        <td>
+          <a class="official-link" href="https://busanxthesky.com/" target="_blank">Busan X the SKY 展望台</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 달맞이길 30<br>
+          <a class="naver-link" href="https://naver.me/5IS92bMA" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（海雲台區內移動）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>11:20–12:30</td>
+        <td>
+          <a class="official-link" href="https://couplehuang.com/sohyang_galbi_jjim/" target="_blank">소향갈비（小香燉牛排骨）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 우동 532-8<br>
+          <a class="naver-link" href="https://naver.me/IItcqd7N" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚶 步行或短程計程車</span>
+        </td>
+      </tr>
+      <tr>
+        <td>13:00–15:00</td>
+        <td>
+          <a class="official-link" href="https://www.clubdoasis.com/" target="_blank">Club D Oasis 汗蒸幕 SPA</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 달맞이길 30<br>
+          <a class="naver-link" href="https://naver.me/F9N4ni3R" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">同一建築內（與 Busan X the SKY 同棟）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>15:00</td>
+        <td>
+          <a class="official-link" href="https://ecentumhotel.com/" target="_blank">海雲台 Centum 飯店</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 센텀3로 20<br>
+          <a class="naver-link" href="https://naver.me/xFLu7ewY" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（約 ₩7,000）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>15:30–17:00</td>
+        <td>
+          <a class="official-link" href="https://yachtholic.com/" target="_blank">Yacht Holic 海雲台遊艇</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 해운대해변로 84<br>
+          <a class="naver-link" href="https://naver.me/GBF7x95e" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（海雲台沙灘附近）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>17:20–19:00</td>
+        <td>
+          <a class="official-link" href="https://mamahuhu.blog/overseas/nasari-sigdang/" target="_blank">나사리식당（Nasari 餐廳）광안점</a>
+        </td>
+        <td>
+          韓文地址：부산 수영구 광안로61번길 60 3층<br>
+          <a class="naver-link" href="https://naver.me/FA2xLeaO" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 廣安站 3 號出口步行 5 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>19:30–20:30</td>
+        <td>
+          <a class="official-link" href="https://lizzzstyle.tw/gwangallimdrone/" target="_blank">廣安里 M 無人機燈光秀</a>
+        </td>
+        <td>
+          韓文地址：부산광역시 수영구 광안해변로 219 (광안동)<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/11491655?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（廣安里海水浴場）</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 1/1 -->
+<div id="day4" class="day-section">
+  <h2>📅 1/1（三）｜海雲台濱海一日</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:30–09:20</td>
+        <td>
+          <a class="official-link" href="https://jamhouse.tistory.com/229" target="_blank">거대곰탕（巨大牛骨湯）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 해운대해변로 163<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/1882773321?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 海雲臺站 步行 12 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>09:40–11:00</td>
+        <td>
+          <a class="official-link" href="https://tsnio.com/haeundae-blueline-park/" target="_blank">海雲台海岸小火車</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 달맞이길62번길 13<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/1007574852?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車或公車</span>
+        </td>
+      </tr>
+      <tr>
+        <td>11:10–12:00</td>
+        <td>
+          <a class="official-link" href="https://mamahuhu.blog/overseas/haeundae-blueline-park/" target="_blank">藍線天空膠囊列車</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 구남로62번길 13<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/1007574852?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚶 從小火車站步行約 5–10 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>12:10–13:20</td>
+        <td>
+          <a class="official-link" href="https://blog.naver.com/PostView.nhn?blogId=darkbrownsugar&logNo=224064376804&redirect=Dlog&widgetTypeCall=true" target="_blank">풍천만민물장어（豐川萬烤鰻魚）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 달맞이길 22<br>
+          <a class="naver-link" href="https://naver.me/GWe2Thy3" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車</span>
+        </td>
+      </tr>
+      <tr>
+        <td>13:40–15:00</td>
+        <td>
+          <a class="official-link" href="https://journey.tw/the-bay-101/" target="_blank">THE BAY 101</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 동백로 52<br>
+          <a class="naver-link" href="https://naver.me/59vo1yZU" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（約 ₩6,000）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>15:30–16:40</td>
+        <td>
+          <a class="official-link" href="https://angelababy0822.com/diart-coffee/" target="_blank">Diart Coffee</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 청사포로128번길 12<br>
+          <a class="naver-link" href="https://naver.me/Gxk1OJez" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 青沙浦站 步行 8 分鐘</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 1/2 -->
+<div id="day5" class="day-section">
+  <h2>📅 1/2（四）｜機張 & 青沙浦 & 市區</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>09:30–11:00</td>
+        <td>
+          <a class="official-link" href="https://we4-travel.com/cafe-coralani/" target="_blank">Coralani 咖啡廳</a>
+        </td>
+        <td>
+          韓文地址：부산 기장군 기장읍 기장해안로 32<br>
+          <a class="naver-link" href="https://naver.me/GALRIqNv" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車（從海雲台出發約 ₩15,000）</span>
+        </td>
+      </tr>
+      <tr>
+        <td>11:30–13:00</td>
+        <td>
+          <a class="official-link" href="https://www.threads.com/@meiyinn.m/post/DCzLLTBS3Of?hl=zh-tw" target="_blank">HAEMAKKI 醬蟹</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 해운대해변로298번길 24 2F<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/12840363?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車</span>
+        </td>
+      </tr>
+      <tr>
+        <td>13:20–15:00</td>
+        <td>
+          <a class="official-link" href="https://whatime.space/bluelinepark-seafood/" target="_blank">도희네 烤海鮮</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 청사포로 157<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/1200182324?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 青沙浦站 步行 6 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>15:30–16:30</td>
+        <td>
+          <a class="official-link" href="https://damei17.com/busan-cinema-center/" target="_blank">釜山電影殿堂（BIFF）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 수영강변대로 120<br>
+          <a class="naver-link" href="https://naver.me/Fnm0F16k" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚇 Centum City 站 步行 5 分鐘</span>
+        </td>
+      </tr>
+      <tr>
+        <td>16:50–17:30</td>
+        <td>
+          <a class="official-link" href="https://creatrip.com/zh-TW/blog/13218" target="_blank">HomePlus（Centum City 店）</a>
+        </td>
+        <td>
+          韓文地址：부산 해운대구 센텀남대로 59<br>
+          <a class="naver-link" href="https://naver.me/Fuz5sQvj" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">與電影殿堂同區，步行可達</span>
+        </td>
+      </tr>
+      <tr>
+        <td>18:00–19:30</td>
+        <td>
+          <a class="official-link" href="https://www.bigfang.tw/blog/post/matwang-seomyeon-busan" target="_blank">味贊王鹽烤肉</a>
+        </td>
+        <td>
+          韓文地址：부산 부산진구 중앙대로691번가길 24-3<br>
+          <a class="naver-link" href="https://map.naver.com/p/entry/place/32738998?placePath=%2Fhome" target="_blank">📍 Naver Map 連結</a>
+        </td>
+        <td>
+          <span class="transport">🚕 計程車</span>
+        </td>
+      </tr>
+         </tbody>
+  </table>
+</div>
+
+<!-- 1/3 -->
+<div id="day6" class="day-section">
+  <h2>📅 1/3（五）｜退房 & 前往機場</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>行程</th>
+        <th>地址 / Naver Map</th>
+        <th>建議交通工具</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:00</td>
+        <td>
+          <a class="official-link" href="https://ecentumhotel.com/" target="_blank">海雲台 Centum 飯店 Check-out</a>    
+        </td>
+        <td>
+          <span class="transport">
+            🚖 計程車直達機場（約 ₩28,000–₩35,000，55–70 分鐘）<br>
+            🚇 地鐵：Centum City → 西面（2 號線）→ 釜山機場（1 號線），約 90–100 分鐘
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  function showDay(dayId) {
+    document.querySelectorAll('.day-section').forEach(el => {
+      el.classList.remove('active');
+    });
+    document.getElementById(dayId).classList.add('active');
+  }
+  window.onload = () => showDay('day1');
+</script>
+
+</body>
+</html>
+
